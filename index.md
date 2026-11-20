@@ -1,35 +1,53 @@
 ---
 title: Home
 layout: home
+nav_order: 1
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+# O2 User Manual
+{: .fs-9 }
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+O2 is a safe and flexible archive for personal data: contacts, accounts, credit cards, Wi-Fi settings, and anything else you want to keep in one place.
+{: .fs-6 .fw-300 }
 
-More specifically, the created site:
+[Get started]({% link docs/getting-started.md %}){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Download O2](https://github.com/maurizuki/O2/releases/latest){: .btn .fs-5 .mb-4 .mb-md-0 }
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+---
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+This manual covers O2 version 3.4.1 for Windows.
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+## What O2 does
 
-To get started with creating a site, simply:
+- **Objects hold your data.** An object is anything you want to describe: a person, a bank account, a router. Give it as many name–value *fields* as you need, add *tags* to group it, and write free-form *notes* in plain text or Markdown.
+- **Rules add behavior.** A rule watches for fields whose name and value match a pattern, then does something with them: hides passwords, turns values into clickable links, tracks expiration dates and anniversaries, or highlights values in color.
+- **Relations link objects.** Pair two objects and give each a role, such as *husband*–*wife* or *company*–*employee*.
+- **Your file is encrypted.** O2 saves everything in a single `.o2` file, protected by a password and a modern cipher such as AES.
+- **Upcoming events at a glance.** Sort by next event, or filter to *Today*, *This week*, *Next 30 days*, and so on.
+- **Get your data out.** Print it, export it to HTML, XML, another O2 file, or an iCalendar file for your calendar app.
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+## How this manual is organized
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+| Section | Read it to… |
+|:--------|:------------|
+| [Getting started]({% link docs/getting-started.md %}) | Install O2, open the examples, and create your first file. |
+| [Core concepts]({% link docs/concepts.md %}) | Understand objects, fields, tags, notes, relations and rules. |
+| [The main window]({% link docs/main-window.md %}) | Find your way around the toolbar, lists and panes. |
+| [Files and encryption]({% link docs/files.md %}) | Open, save and protect your files. |
+| [Objects, fields and tags]({% link docs/objects.md %}) | Create and edit your data. |
+| [Relations]({% link docs/relations.md %}) | Connect objects to each other. |
+| [Rules]({% link docs/rules/index.md %}) | Automate links, passwords, dates and highlighting. |
+| [Events and reminders]({% link docs/events.md %}) | Track expiration dates, birthdays and anniversaries. |
+| [Finding objects]({% link docs/search.md %}) | Filter by name, event, tag or rule. |
+| [Import, export and print]({% link docs/import-export.md %}) | Move data in and out of O2. |
+| [Tools and preferences]({% link docs/preferences.md %}) | Transparency, updates, settings, portable install. |
+| [Keyboard and mouse shortcuts]({% link docs/shortcuts.md %}) | Work faster. |
+| [Troubleshooting]({% link docs/troubleshooting.md %}) | Fix common problems. |
 
-----
+## Getting help
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+- Ask a question: [Support requests](https://github.com/maurizuki/O2/discussions/categories/q-a)
+- Suggest a feature: [Feature requests](https://github.com/maurizuki/O2/labels/enhancement)
+- Report a problem: [Bug reports](https://github.com/maurizuki/O2/labels/bug)
 
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+The same links are in O2 under the **Help** toolbar button.
