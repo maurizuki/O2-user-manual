@@ -10,6 +10,14 @@ aux_links:
 
 favicon_ico: "/assets/favicon.png"
 
+# Pages without an explicit layout (all but the home page) use the theme's default layout.
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+
 color_scheme: dark
 
 search_enabled: true
