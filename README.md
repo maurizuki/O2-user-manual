@@ -12,7 +12,7 @@ The site is built with [Jekyll](https://jekyllrb.com) and the [Just the Docs](ht
 | `docs/` | Manual pages. `nav_order` in each page's front matter sets its position in the sidebar. |
 | `docs/rules/` | The *Rules* section and its child pages. |
 | `_config.yml` | Site settings: favicon, color scheme, callout types (`note`, `tip`, `important`, `warning`), and the default `layout` for pages that don't set one. |
-| `assets/favicon.png` | Favicon, the same as the [O2 home page](https://maurizuki.github.io/O2) uses. |
+| `assets/images/` | Images used by the manual pages, such as the main window wireframe (`main-window.svg`). Link them with `{{ "/assets/images/<file>" \| relative_url }}` so the path works under the site's base URL. |
 
 ## Build and preview locally
 
