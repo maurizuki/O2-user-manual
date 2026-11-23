@@ -13,7 +13,7 @@ nav_order: 10
 
 ## Open the search pane
 
-Click **Find** on the toolbar, or press **Ctrl+F**. The search pane opens on the left of the window. Click **Find** again to hide it.
+Click **Find** on the toolbar, or press **Ctrl+F**. The search pane opens on the right of the window. Click **Find** again to hide it.
 
 The pane has four filters. The objects list updates as you change them, and shows only the objects that pass **all** active filters.
 

@@ -15,22 +15,15 @@ nav_order: 4
 
 The main window has five areas:
 
-```
-+-----------------------------------------------------------------+
-| Toolbar: New  Open  Save  Print  Tools  View  Find  Help        |
-+---------------+-------------------------------------------------+
-|               |  Objects list                                   |
-|  Search pane  |  Name | Tags | Next event                       |
-|  (Find)       |                                                 |
-|               +-------------------------------------------------+
-|               |  [Fields] [Notes] [Relations] [Rules]           |
-|               |  Details of the selected object                 |
-+---------------+-------------------------------------------------+
-| Status bar: item count | file name or selected object and tags  |
-+-----------------------------------------------------------------+
-```
+![Wireframe of the O2 main window: the toolbar at the top, the objects list above the details tabs on the left, the search pane on the right, and the status bar at the bottom.]({{ "/assets/images/main-window.svg" | relative_url }})
 
-You can drag the splitters between areas to resize them.
+1. [Toolbar](#toolbar)
+2. [Objects list](#objects-list)
+3. [Details tabs](#details-tabs)
+4. [Search pane](#search-pane), shown only when you click **Find**
+5. [Status bar](#status-bar)
+
+The picture is a simplified wireframe: the actual look of the window depends on your system and theme. You can drag the splitters between areas to resize them.
 
 ## Toolbar
 
@@ -117,7 +110,7 @@ Lists every rule in the file with its **Rule** name, **Type**, **Field name** ma
 
 ## Search pane
 
-Click **Find** (or press **Ctrl+F**) to show the search pane on the left. It filters the objects list by name, event, tag and rule. See [Finding objects]({% link docs/search.md %}).
+Click **Find** (or press **Ctrl+F**) to show the search pane on the right. It filters the objects list by name, event, tag and rule. See [Finding objects]({% link docs/search.md %}).
 
 ## Status bar
 
