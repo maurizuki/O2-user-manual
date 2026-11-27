@@ -37,11 +37,13 @@ A rule applies to a field only when **both** masks match. Matching ignores upper
 2. In the **Rule properties** dialog, fill in the **General** page:
    - **Name**: a unique name for the rule.
    - **Type**: what the rule does. See [Rule types]({% link docs/rules/rule-types.md %}).
-   - **Field name mask** and **Field value mask**. The help text on the page summarizes the mask syntax.
+   - **Field name mask** and **Field value mask**. See [Masks]({% link docs/rules/masks.md %}) for the syntax.
 3. Fill in the extra pages for the chosen type (see below).
 4. Click **OK**. New rules are enabled.
 
 ### Pages of the Rule properties dialog
+
+The **Help** button, at the bottom left of the dialog, opens this page of the online manual.
 
 Which pages appear depends on the rule type:
 

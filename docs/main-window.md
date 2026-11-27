@@ -38,7 +38,7 @@ Buttons with an arrow open a menu with related commands. Click the button itself
 | **Tools** | Open the Tools menu. | **File properties**, **Import settings**, **Export settings**, **Transparency**, **Always on top**, **Check for updates now**, **Check for updates periodically**, **Install on removable media** |
 | **View** | Open the View menu. | **Large icons**, **Small icons**, **List**, **Report**, **Sort by name**, **Sort by tags**, **Sort by next event** |
 | **Find** | Show or hide the search pane. | Find, **Clear search** |
-| **Help** | Open the Help menu. | **Home**, **Project page**, **Support requests**, **Feature requests**, **Bug reports**, **About O2** |
+| **Help** | Open the Help menu. | **Home**, **Project page**, **Online user manual**, **Support requests**, **Feature requests**, **Bug reports**, **About O2** |
 
 **New window** starts a second copy of O2, so you can work on two files side by side.
 

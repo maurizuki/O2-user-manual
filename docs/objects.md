@@ -22,6 +22,8 @@ has_children: true
 
 Open it to create an object, or to edit one by double-clicking it, pressing **Enter**, or choosing **Properties** from the object menu. When you edit an object, the dialog opens on the page that matches the tab you were viewing: **Fields** or **Notes**.
 
+The **Help** button, at the bottom left of the dialog, opens this page of the online manual.
+
 ### General page
 
 - **Name**: the object's name. It must be unique in the file. If another object already has the name, O2 reports *An object named "…" already exists.*
@@ -49,7 +51,7 @@ Keep field names consistent across objects, for example always `Phone` and never
 
 Type free-form notes about the object.
 
-- Check **Markdown syntax** to format the notes with Markdown: headings, **bold**, *italic*, lists, links, tables and horizontal rules. The **Markdown syntax help** link opens a short guide. See [Markdown in notes]({% link docs/markdown.md %}) for everything O2 supports.
+- Check **Markdown syntax** to format the notes with Markdown: headings, **bold**, *italic*, lists, links, tables and horizontal rules. See [Markdown in notes]({% link docs/markdown.md %}) for everything O2 supports.
 - Leave it unchecked for plain text.
 
 The **Notes** tab in the main window shows the notes, formatted when Markdown is on.
@@ -102,17 +104,32 @@ Combine bulk changes with the [search pane]({% link docs/search.md %}). For exam
 
 ### Copy field values
 
-Double-click a field, or select it and press **Enter**, to copy its value. Right-click the **Fields** tab for more copy formats. They use tabs and line breaks, so the result pastes cleanly into a spreadsheet.
+Double-click a field, or select it and press **Enter**, to copy its value. Right-click the **Fields** tab for more copy formats, grouped in submenus.
 
-| Command | Copies |
-|:--------|:-------|
-| **Copy field value** | The selected field's value. |
-| **Copy field name and value as row** | Name and value on one line, separated by a tab. |
-| **Copy field name and value as column** | Name, then value on the next line. |
-| **Copy field values as rows** | All values, one per line. |
-| **Copy field values as columns** | All values on one line, separated by tabs. |
-| **Copy as rows** | All fields, one per line, name and value separated by a tab. |
-| **Copy as columns** | All names on one line and all values on the next. |
+**Copy field value** copies the selected field's value.
+
+The **Copy field name and value**, **Copy field values** and **Copy fields** submenus use tabs and line breaks, so the result pastes cleanly into a spreadsheet:
+
+| Submenu | Command | Copies |
+|:--------|:--------|:-------|
+| **Copy field name and value** | **One row** | The selected field's name and value on one line, separated by a tab. |
+| | **One column** | The selected field's name, then its value on the next line. |
+| **Copy field values** | **One value per row** | All values, one per line. |
+| | **One value per column** | All values on one line, separated by tabs. |
+| **Copy fields** | **One field per row** | All fields, one per line, name and value separated by a tab. |
+| | **One field per column** | All names on one line and all values on the next. |
+
+The **Copy as table** submenu copies all fields as a table, ready to paste into a document, an e-mail or a Markdown file:
+
+| Command | Table layout |
+|:--------|:-------------|
+| **One field per row** | Two columns, headed *Field* and *Value*, with one row per field. |
+| **One field per column** | One column per field, headed by the field name, with the values in a single row. |
+
+The table is copied in two formats at once, and the program you paste into picks the one it supports:
+
+- **HTML**, for programs that accept formatted text, such as Word, Outlook or OneNote. The table keeps its rows, columns and header.
+- **Markdown**, for plain-text editors. The table is written with pipes (`|`); pipe characters inside values are written as `&#124;` so they don't break the table.
 
 Copy commands always copy the real value, including passwords hidden behind dots.
 
