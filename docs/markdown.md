@@ -22,8 +22,6 @@ Object notes can be written in Markdown, a simple way to format text with ordina
 
 The setting is per object. With the box unchecked, notes are plain text: shown in a fixed-width font, exactly as typed, with spaces and line breaks preserved.
 
-The **Markdown syntax help** link on the **Notes** page opens a short CommonMark reference.
-
 ## Where Markdown is rendered
 
 | Place | Result |

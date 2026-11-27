@@ -15,7 +15,7 @@ O2 is a safe and flexible archive for personal data: contacts, accounts, credit 
 
 ---
 
-This manual covers O2 version 3.4.1 for Windows.
+This manual covers O2 version 3.5 for Windows.
 
 ## What O2 does
 
@@ -50,4 +50,4 @@ This manual covers O2 version 3.4.1 for Windows.
 - Suggest a feature: [Feature requests](https://github.com/maurizuki/O2/labels/enhancement)
 - Report a problem: [Bug reports](https://github.com/maurizuki/O2/labels/bug)
 
-The same links are in O2 under the **Help** toolbar button.
+The same links are in O2 under the **Help** toolbar button, together with **Online user manual**, which opens this manual. The **Object properties** and **Rule properties** dialogs also have a **Help** button that opens the matching page.
